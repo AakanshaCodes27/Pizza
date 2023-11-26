@@ -8,7 +8,6 @@
 .container {
   background-color: #000;
   width: 100%;
-  /* height: 100vh; */
 }
 
 header nav {
@@ -73,7 +72,7 @@ a {
   top: 30%;
   left: 20%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 .overlay-text h2 {
@@ -83,14 +82,13 @@ a {
 }
 
 .horizontal-divider {
-  width: 100%;
+  width: 380px;
   height: 8px;
   background-color: #f24c4c;
-  margin: 10% 0; /* Adjust the margin as needed */
+  margin: 10px auto; /* Center the divider horizontally */
 }
 
 .hero-section img {
-  
   width: 100%;
   height: auto;
 }
@@ -102,8 +100,104 @@ a {
   font-size: 18px;
 }
 
+.about-section h2 {
+  text-align: center;
+  margin: 24px 0;
+}
 
-.about-section h2{
-    text-align: center;
-    margin: 24px 0;
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 200px;
+}
+
+.about-text {
+  text-align: left;
+  max-width: 30%;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 160% */
+  letter-spacing: 2.25px;
+}
+
+.dough-image {
+  max-width: 50%;
+  text-align: right;
+}
+
+.dough-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 10%;
+}
+
+
+.menu-text {
+  text-align: center;
+  max-width: 0 auto;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 160% */
+  letter-spacing: 2.25px;
+}
+
+.menu-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.menu-card {
+  display: flex;
+  width: 45%; /* Adjust card width as needed */
+  margin-bottom: 20px;
+  background-color: #333; /* Card background color */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.menu-card img {
+  width: 280px;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-info h2 {
+  text-align: left;
+  font-size: 26px;
+  color: #f2c94c;
+  margin-bottom: 10px;
+}
+
+.card-info p {
+  font-size: 14px;
+  text-align: justify;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 200% */
+  letter-spacing: 1.8px;
 }
